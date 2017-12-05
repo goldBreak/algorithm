@@ -22,6 +22,6 @@
 
 void searchMaxRangle(int number[],int lenght,int height);
 
-void logOut(int number[],int length);
+void logOut(int number[],int length, int count);
 
 #endif /* MaxRangle_h */

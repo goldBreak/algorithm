@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5902449E1FCE4B1300EFDB8D /* statisticsNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 5902449C1FCE4B1300EFDB8D /* statisticsNumber.c */; };
 		5911BC481FCBB73900A8A9AB /* DelNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5911BC471FCBB73900A8A9AB /* DelNumber.m */; };
 		5911BE671FCBD7E600A8A9AB /* K_list.m in Sources */ = {isa = PBXBuildFile; fileRef = 5911BE661FCBD7E600A8A9AB /* K_list.m */; };
+		59127B2C1FCCEDD300510822 /* CleanRangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 59127B2A1FCCEDD300510822 /* CleanRangle.c */; };
+		59146BF71FD628D80035A6CF /* CloseNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 59146BF51FD628D80035A6CF /* CloseNumber.c */; };
 		59B9B6941FC55A9800F1B745 /* MaxRangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 59B9B6921FC55A9800F1B745 /* MaxRangle.c */; };
 		59F2306C1FB93BFC00513D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F2306B1FB93BFC00513D39 /* main.m */; };
 /* End PBXBuildFile section */
@@ -26,10 +29,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5902449C1FCE4B1300EFDB8D /* statisticsNumber.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = statisticsNumber.c; sourceTree = "<group>"; };
+		5902449D1FCE4B1300EFDB8D /* statisticsNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = statisticsNumber.h; sourceTree = "<group>"; };
 		5911BC461FCBB73900A8A9AB /* DelNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelNumber.h; sourceTree = "<group>"; };
 		5911BC471FCBB73900A8A9AB /* DelNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelNumber.m; sourceTree = "<group>"; };
 		5911BE651FCBD7E600A8A9AB /* K_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = K_list.h; sourceTree = "<group>"; };
 		5911BE661FCBD7E600A8A9AB /* K_list.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = K_list.m; sourceTree = "<group>"; };
+		59127B2A1FCCEDD300510822 /* CleanRangle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CleanRangle.c; sourceTree = "<group>"; };
+		59127B2B1FCCEDD300510822 /* CleanRangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CleanRangle.h; sourceTree = "<group>"; };
+		59146BF51FD628D80035A6CF /* CloseNumber.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CloseNumber.c; sourceTree = "<group>"; };
+		59146BF61FD628D80035A6CF /* CloseNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloseNumber.h; sourceTree = "<group>"; };
 		59B9B6921FC55A9800F1B745 /* MaxRangle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MaxRangle.c; sourceTree = "<group>"; };
 		59B9B6931FC55A9800F1B745 /* MaxRangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxRangle.h; sourceTree = "<group>"; };
 		59F230681FB93BFC00513D39 /* K_list */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = K_list; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +80,12 @@
 				5911BC471FCBB73900A8A9AB /* DelNumber.m */,
 				59B9B6921FC55A9800F1B745 /* MaxRangle.c */,
 				59B9B6931FC55A9800F1B745 /* MaxRangle.h */,
+				59127B2A1FCCEDD300510822 /* CleanRangle.c */,
+				59127B2B1FCCEDD300510822 /* CleanRangle.h */,
+				5902449C1FCE4B1300EFDB8D /* statisticsNumber.c */,
+				5902449D1FCE4B1300EFDB8D /* statisticsNumber.h */,
+				59146BF51FD628D80035A6CF /* CloseNumber.c */,
+				59146BF61FD628D80035A6CF /* CloseNumber.h */,
 				5911BE651FCBD7E600A8A9AB /* K_list.h */,
 				5911BE661FCBD7E600A8A9AB /* K_list.m */,
 			);
@@ -134,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59127B2C1FCCEDD300510822 /* CleanRangle.c in Sources */,
+				5902449E1FCE4B1300EFDB8D /* statisticsNumber.c in Sources */,
 				59F2306C1FB93BFC00513D39 /* main.m in Sources */,
 				5911BE671FCBD7E600A8A9AB /* K_list.m in Sources */,
 				59B9B6941FC55A9800F1B745 /* MaxRangle.c in Sources */,
+				59146BF71FD628D80035A6CF /* CloseNumber.c in Sources */,
 				5911BC481FCBB73900A8A9AB /* DelNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -50,11 +50,11 @@ void handleRangle(int number[],int length,int height,int *rangle) {
     }
 }
 
-void logOut(int number[],int length) {
+void logOut(int number[],int length, int count) {
     
     for (int i = 0; i < length; i ++) {
 
-        if (i % 4 == 0) {
+        if (i % count == 0) {
             printf("\n");
         }
         
@@ -132,7 +132,7 @@ void searchMaxRangle(int number[],int lenght,int height) {
     
     calculateData(tempRangle, height * lenght * 4, lenght, height);
     //
-    logOut(tempRangle,height * lenght * 4);
+    logOut(tempRangle,height * lenght * 4,4);
 }
 
 

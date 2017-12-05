@@ -10,23 +10,15 @@
 #include "MaxRangle.h"
 #include "DelNumber.h"
 #include "K_list.h"
-
+#include "CleanRangle.h"
+#import "statisticsNumber.h"
+#import "CloseNumber.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        /*
-        int k_number = 0;
-        int k_int = 0;
         
-        printf("请输入整数N:\n");
-        scanf("%d",&k_number);
-        printf("请输入整数K:\n");
-        scanf("%d",&k_int);
-        
-        k_list_sempale(k_number,k_int);
-         */
-        
+        // 最大矩形面积
         /*
         int number[] =
         {
@@ -39,6 +31,9 @@ int main(int argc, const char * argv[]) {
         
         searchMaxRangle(number, 5, 5);
          */
+        
+        // 删除数
+        /*
         int a[10] = {7,2,1,3,4,5,6,7,8,1};
         int count = 10;
         int delCount = 2;
@@ -48,6 +43,26 @@ int main(int argc, const char * argv[]) {
         for (int i = 0; i < (count - delCount); i ++) {
             printf("%4d",a[i]);
         }
+        */
+        
+        /*
+        // 2 * 2
+        int number[] =
+        {
+           1,2,
+           0,3
+        };
+        
+        cleanRangle(number,2,2);
+        
+        logOut(number, 4, 2);
+        */
+        
+        /**
+         计算最接近的数
+         */
+        
+        closeNumber();
         
         printf("\n");
     }
