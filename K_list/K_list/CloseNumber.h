@@ -13,6 +13,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-void closeNumber();
+void closeNumbe();
 
 #endif /* CloseNumber_h */

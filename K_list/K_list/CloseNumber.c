@@ -58,7 +58,7 @@ int calculate(int *number,int target,int count) {
     return temp + target;
 }
 
-void closeNumber() {
+void closeNumbe() {
     int *number ;
     int count;
     int target;

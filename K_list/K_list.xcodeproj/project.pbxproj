@@ -12,7 +12,11 @@
 		5911BE671FCBD7E600A8A9AB /* K_list.m in Sources */ = {isa = PBXBuildFile; fileRef = 5911BE661FCBD7E600A8A9AB /* K_list.m */; };
 		59127B2C1FCCEDD300510822 /* CleanRangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 59127B2A1FCCEDD300510822 /* CleanRangle.c */; };
 		59146BF71FD628D80035A6CF /* CloseNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 59146BF51FD628D80035A6CF /* CloseNumber.c */; };
+		59415E361FDA80DB00710A29 /* maxPublicString.c in Sources */ = {isa = PBXBuildFile; fileRef = 59415E341FDA80DB00710A29 /* maxPublicString.c */; };
+		59415E391FDA8D0900710A29 /* SheelSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 59415E371FDA8D0900710A29 /* SheelSort.c */; };
+		5946C1FE1FE91BA30051735B /* CAString.c in Sources */ = {isa = PBXBuildFile; fileRef = 5946C1FC1FE91BA30051735B /* CAString.c */; };
 		59B9B6941FC55A9800F1B745 /* MaxRangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 59B9B6921FC55A9800F1B745 /* MaxRangle.c */; };
+		59EA9F3D1FF4BE5200EA5F15 /* odd_evenList.c in Sources */ = {isa = PBXBuildFile; fileRef = 59EA9F3B1FF4BE5100EA5F15 /* odd_evenList.c */; };
 		59F2306C1FB93BFC00513D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F2306B1FB93BFC00513D39 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +43,16 @@
 		59127B2B1FCCEDD300510822 /* CleanRangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CleanRangle.h; sourceTree = "<group>"; };
 		59146BF51FD628D80035A6CF /* CloseNumber.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CloseNumber.c; sourceTree = "<group>"; };
 		59146BF61FD628D80035A6CF /* CloseNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloseNumber.h; sourceTree = "<group>"; };
+		59415E341FDA80DB00710A29 /* maxPublicString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maxPublicString.c; sourceTree = "<group>"; };
+		59415E351FDA80DB00710A29 /* maxPublicString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxPublicString.h; sourceTree = "<group>"; };
+		59415E371FDA8D0900710A29 /* SheelSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SheelSort.c; sourceTree = "<group>"; };
+		59415E381FDA8D0900710A29 /* SheelSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheelSort.h; sourceTree = "<group>"; };
+		5946C1FC1FE91BA30051735B /* CAString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CAString.c; sourceTree = "<group>"; };
+		5946C1FD1FE91BA30051735B /* CAString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAString.h; sourceTree = "<group>"; };
 		59B9B6921FC55A9800F1B745 /* MaxRangle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MaxRangle.c; sourceTree = "<group>"; };
 		59B9B6931FC55A9800F1B745 /* MaxRangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxRangle.h; sourceTree = "<group>"; };
+		59EA9F3B1FF4BE5100EA5F15 /* odd_evenList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = odd_evenList.c; sourceTree = "<group>"; };
+		59EA9F3C1FF4BE5200EA5F15 /* odd_evenList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = odd_evenList.h; sourceTree = "<group>"; };
 		59F230681FB93BFC00513D39 /* K_list */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = K_list; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F2306B1FB93BFC00513D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,8 +98,16 @@
 				5902449D1FCE4B1300EFDB8D /* statisticsNumber.h */,
 				59146BF51FD628D80035A6CF /* CloseNumber.c */,
 				59146BF61FD628D80035A6CF /* CloseNumber.h */,
+				59415E371FDA8D0900710A29 /* SheelSort.c */,
+				59415E381FDA8D0900710A29 /* SheelSort.h */,
 				5911BE651FCBD7E600A8A9AB /* K_list.h */,
 				5911BE661FCBD7E600A8A9AB /* K_list.m */,
+				59415E341FDA80DB00710A29 /* maxPublicString.c */,
+				59415E351FDA80DB00710A29 /* maxPublicString.h */,
+				5946C1FC1FE91BA30051735B /* CAString.c */,
+				5946C1FD1FE91BA30051735B /* CAString.h */,
+				59EA9F3B1FF4BE5100EA5F15 /* odd_evenList.c */,
+				59EA9F3C1FF4BE5200EA5F15 /* odd_evenList.h */,
 			);
 			path = K_list;
 			sourceTree = "<group>";
@@ -123,7 +143,7 @@
 				TargetAttributes = {
 					59F230671FB93BFC00513D39 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -150,11 +170,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				59127B2C1FCCEDD300510822 /* CleanRangle.c in Sources */,
+				59415E391FDA8D0900710A29 /* SheelSort.c in Sources */,
+				5946C1FE1FE91BA30051735B /* CAString.c in Sources */,
 				5902449E1FCE4B1300EFDB8D /* statisticsNumber.c in Sources */,
+				59EA9F3D1FF4BE5200EA5F15 /* odd_evenList.c in Sources */,
 				59F2306C1FB93BFC00513D39 /* main.m in Sources */,
 				5911BE671FCBD7E600A8A9AB /* K_list.m in Sources */,
 				59B9B6941FC55A9800F1B745 /* MaxRangle.c in Sources */,
 				59146BF71FD628D80035A6CF /* CloseNumber.c in Sources */,
+				59415E361FDA80DB00710A29 /* maxPublicString.c in Sources */,
 				5911BC481FCBB73900A8A9AB /* DelNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -259,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -268,8 +292,9 @@
 		59F230701FB93BFC00513D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8P7Z5ED43G;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYTJAT486P;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -278,8 +303,9 @@
 		59F230711FB93BFC00513D39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8P7Z5ED43G;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYTJAT486P;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};

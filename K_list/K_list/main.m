@@ -11,8 +11,11 @@
 #include "DelNumber.h"
 #include "K_list.h"
 #include "CleanRangle.h"
-#import "statisticsNumber.h"
-#import "CloseNumber.h"
+#include "CloseNumber.h"
+#include "statisticsNumber.h"
+#include "maxPublicString.h"
+#include "SheelSort.h"
+#include "odd_evenList.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -60,9 +63,12 @@ int main(int argc, const char * argv[]) {
         
         /**
          计算最接近的数
+         
+         closeNumbe();
          */
         
-        closeNumber();
+//        sheelSortAct();
+        oddEvenList();
         
         printf("\n");
     }
