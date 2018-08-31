@@ -17,6 +17,7 @@
 		5946C1FE1FE91BA30051735B /* CAString.c in Sources */ = {isa = PBXBuildFile; fileRef = 5946C1FC1FE91BA30051735B /* CAString.c */; };
 		59B9B6941FC55A9800F1B745 /* MaxRangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 59B9B6921FC55A9800F1B745 /* MaxRangle.c */; };
 		59EA9F3D1FF4BE5200EA5F15 /* odd_evenList.c in Sources */ = {isa = PBXBuildFile; fileRef = 59EA9F3B1FF4BE5100EA5F15 /* odd_evenList.c */; };
+		59F0D8CD207A158B004EDBE9 /* BrokeBalloon.c in Sources */ = {isa = PBXBuildFile; fileRef = 59F0D8CB207A158B004EDBE9 /* BrokeBalloon.c */; };
 		59F2306C1FB93BFC00513D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F2306B1FB93BFC00513D39 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		59B9B6931FC55A9800F1B745 /* MaxRangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxRangle.h; sourceTree = "<group>"; };
 		59EA9F3B1FF4BE5100EA5F15 /* odd_evenList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = odd_evenList.c; sourceTree = "<group>"; };
 		59EA9F3C1FF4BE5200EA5F15 /* odd_evenList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = odd_evenList.h; sourceTree = "<group>"; };
+		59F0D8CB207A158B004EDBE9 /* BrokeBalloon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BrokeBalloon.c; sourceTree = "<group>"; };
+		59F0D8CC207A158B004EDBE9 /* BrokeBalloon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokeBalloon.h; sourceTree = "<group>"; };
 		59F230681FB93BFC00513D39 /* K_list */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = K_list; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F2306B1FB93BFC00513D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +71,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59F0D8CE207A1594004EDBE9 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				5911BC461FCBB73900A8A9AB /* DelNumber.h */,
+				5911BC471FCBB73900A8A9AB /* DelNumber.m */,
+			);
+			name = 1;
+			sourceTree = "<group>";
+		};
+		59F0D8CF207A15A1004EDBE9 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				59B9B6931FC55A9800F1B745 /* MaxRangle.h */,
+				59B9B6921FC55A9800F1B745 /* MaxRangle.c */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		59F0D8D0207A15AD004EDBE9 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				59127B2A1FCCEDD300510822 /* CleanRangle.c */,
+				59127B2B1FCCEDD300510822 /* CleanRangle.h */,
+			);
+			name = 3;
+			sourceTree = "<group>";
+		};
+		59F0D8D1207A15CE004EDBE9 /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				59146BF51FD628D80035A6CF /* CloseNumber.c */,
+				59146BF61FD628D80035A6CF /* CloseNumber.h */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		59F0D8D2207A15D8004EDBE9 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				59415E341FDA80DB00710A29 /* maxPublicString.c */,
+				59415E351FDA80DB00710A29 /* maxPublicString.h */,
+				5946C1FC1FE91BA30051735B /* CAString.c */,
+				5946C1FD1FE91BA30051735B /* CAString.h */,
+				5911BE651FCBD7E600A8A9AB /* K_list.h */,
+				5911BE661FCBD7E600A8A9AB /* K_list.m */,
+				5902449C1FCE4B1300EFDB8D /* statisticsNumber.c */,
+				5902449D1FCE4B1300EFDB8D /* statisticsNumber.h */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		59F0D8D3207A15ED004EDBE9 /* 5 */ = {
+			isa = PBXGroup;
+			children = (
+				59415E371FDA8D0900710A29 /* SheelSort.c */,
+				59415E381FDA8D0900710A29 /* SheelSort.h */,
+			);
+			path = 5;
+			sourceTree = "<group>";
+		};
+		59F0D8D4207A1620004EDBE9 /* 6 */ = {
+			isa = PBXGroup;
+			children = (
+				59EA9F3B1FF4BE5100EA5F15 /* odd_evenList.c */,
+				59EA9F3C1FF4BE5200EA5F15 /* odd_evenList.h */,
+			);
+			name = 6;
+			sourceTree = "<group>";
+		};
+		59F0D8D5207A1629004EDBE9 /* 7 */ = {
+			isa = PBXGroup;
+			children = (
+				59F0D8CB207A158B004EDBE9 /* BrokeBalloon.c */,
+				59F0D8CC207A158B004EDBE9 /* BrokeBalloon.h */,
+			);
+			path = 7;
+			sourceTree = "<group>";
+		};
 		59F2305F1FB93BFC00513D39 = {
 			isa = PBXGroup;
 			children = (
@@ -88,26 +169,14 @@
 			isa = PBXGroup;
 			children = (
 				59F2306B1FB93BFC00513D39 /* main.m */,
-				5911BC461FCBB73900A8A9AB /* DelNumber.h */,
-				5911BC471FCBB73900A8A9AB /* DelNumber.m */,
-				59B9B6921FC55A9800F1B745 /* MaxRangle.c */,
-				59B9B6931FC55A9800F1B745 /* MaxRangle.h */,
-				59127B2A1FCCEDD300510822 /* CleanRangle.c */,
-				59127B2B1FCCEDD300510822 /* CleanRangle.h */,
-				5902449C1FCE4B1300EFDB8D /* statisticsNumber.c */,
-				5902449D1FCE4B1300EFDB8D /* statisticsNumber.h */,
-				59146BF51FD628D80035A6CF /* CloseNumber.c */,
-				59146BF61FD628D80035A6CF /* CloseNumber.h */,
-				59415E371FDA8D0900710A29 /* SheelSort.c */,
-				59415E381FDA8D0900710A29 /* SheelSort.h */,
-				5911BE651FCBD7E600A8A9AB /* K_list.h */,
-				5911BE661FCBD7E600A8A9AB /* K_list.m */,
-				59415E341FDA80DB00710A29 /* maxPublicString.c */,
-				59415E351FDA80DB00710A29 /* maxPublicString.h */,
-				5946C1FC1FE91BA30051735B /* CAString.c */,
-				5946C1FD1FE91BA30051735B /* CAString.h */,
-				59EA9F3B1FF4BE5100EA5F15 /* odd_evenList.c */,
-				59EA9F3C1FF4BE5200EA5F15 /* odd_evenList.h */,
+				59F0D8D2207A15D8004EDBE9 /* test */,
+				59F0D8CE207A1594004EDBE9 /* 1 */,
+				59F0D8CF207A15A1004EDBE9 /* 2 */,
+				59F0D8D0207A15AD004EDBE9 /* 3 */,
+				59F0D8D1207A15CE004EDBE9 /* 4 */,
+				59F0D8D3207A15ED004EDBE9 /* 5 */,
+				59F0D8D4207A1620004EDBE9 /* 6 */,
+				59F0D8D5207A1629004EDBE9 /* 7 */,
 			);
 			path = K_list;
 			sourceTree = "<group>";
@@ -170,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59127B2C1FCCEDD300510822 /* CleanRangle.c in Sources */,
+				59F0D8CD207A158B004EDBE9 /* BrokeBalloon.c in Sources */,
 				59415E391FDA8D0900710A29 /* SheelSort.c in Sources */,
 				5946C1FE1FE91BA30051735B /* CAString.c in Sources */,
 				5902449E1FCE4B1300EFDB8D /* statisticsNumber.c in Sources */,
